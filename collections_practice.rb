@@ -7,12 +7,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.length = i
-  array.sort do |a, b| << i
-  a <==> b
-  end
-end
-end
+    array.sort { |a, b|  }
+      a.length <=> b.length
 end
 
 def swap_elements
