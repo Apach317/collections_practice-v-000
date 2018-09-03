@@ -35,7 +35,7 @@ end
 end
 
 def sum_array(array)
-  array.sum
+  array.inject :+
 end
 
 def add_s(array)
