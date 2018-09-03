@@ -39,10 +39,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |element| 
+  array.collect do |element|
   if !array[1]
     element + "s"
   else
     element
+  end
   end
 end
