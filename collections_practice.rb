@@ -26,11 +26,10 @@ def kesha_maker(array)
     arry[2] = "$"
     i << arry
   end
-
-
 end
 
 def find_a(array)
+  array.find_a
 end
 
 def sum_array(array)
