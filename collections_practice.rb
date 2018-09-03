@@ -31,6 +31,7 @@ end
 def find_a(array)
   array.start_with? do |a|
     a[0] = "a"
+  end
 end
 
 def sum_array(array)
